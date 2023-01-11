@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(0, 0, 0,0.5), rgba(0,0,0,0.6)),url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.title{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+    background: linear-gradient(rgb(0, 0, 0,0.4), rgba(0,0,0,0.4));
+    width: 800px;
+    margin-left: 20%;
+}
+.title h1{
+    font-size: 3rem;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 30%;
+}
